@@ -10,19 +10,26 @@ main {
 }
 
 .calc-skeleton {
-    display: flex; 
+    display: flex;
     flex-direction: column;
     max-width: fit-content;
 }
 
+input {
+    margin: 0px 10px;
+    height: 50px;
+    max-width: 320px;
+    font-size: xx-large;
+}
+
 .numbering {
-    width: 440px;
+    width: 350px;
     height: 300px;
 }
 
 .list-numbers {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -34,4 +41,20 @@ main {
     padding: 20px; 
     border: 1px solid rgb(202, 202, 202);
     border-radius: 50%;
+}
+
+.characters {
+    margin: 10px;
+    justify-content: center;
+    padding: 20px; 
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 50%;
+}
+
+.char-column-4 {
+    grid-column: 2;
+}
+
+.one {
+    grid-column: 1;
 }

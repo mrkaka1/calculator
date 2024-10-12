@@ -1,0 +1,37 @@
+* {
+    font-family: Poppins;
+    list-style: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc-skeleton {
+    display: flex; 
+    flex-direction: column;
+    max-width: fit-content;
+}
+
+.numbering {
+    width: 440px;
+    height: 300px;
+}
+
+.list-numbers {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.number {
+    margin: 10px;
+    justify-content: center;
+    padding: 20px; 
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 50%;
+}

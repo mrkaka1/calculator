@@ -1,10 +1,15 @@
 * {
     font-family: Poppins;
     list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 main {
     display: flex;
+    background-color: blueviolet;
+    
+    height: 100vh;
     justify-content: center;
     align-items: center;
 }
@@ -12,7 +17,17 @@ main {
 .calc-skeleton {
     display: flex;
     flex-direction: column;
-    max-width: fit-content;
+    max-width: max-content;
+    height: 450px;
+    padding: 20px;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 26px;
+    margin-left: 10px;
 }
 
 input {
@@ -20,6 +35,8 @@ input {
     height: 50px;
     max-width: 320px;
     font-size: xx-large;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .numbering {
